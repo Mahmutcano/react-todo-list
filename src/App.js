@@ -1,10 +1,16 @@
-import From from './components/Form.jsx';
+import Content from "./components/Content.jsx";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <div className="md:container md:mx-auto">
-      <From />
-    </div>
+    <>
+      <section className="todoapp">
+        <Header />
+        <Content />
+      </section>
+      <Footer />
+    </>
   );
 }
 
